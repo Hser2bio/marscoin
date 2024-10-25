@@ -1,8 +1,8 @@
 PACKAGE=qt
 $(package)_version=5.12.11
-$(package)_download_path=http://qt.mirror.constant.com/archive/qt/5.12/$($(package)_version)/single
-$(package)_file_name=$(package)-everywhere-opensource-src-$($(package)_version).tar.zip
-$(package)_sha256_hash=345f1c5960d4f4b27001a693c354ce7b87f030b910850f9368ad87dd63a86ed8
+$(package)_download_path=http://download.qt.io/new_archive/qt/5.12/$($(package)_version)/single
+$(package)_file_name=$(package)-everywhere-src-$($(package)_version).tar.xz
+$(package)_sha256_hash=0c4cdef158c61827d70d6111423166e2c62b539eaf303f36ad1d0aa8af900b95
 $(package)_dependencies=openssl
 $(package)_linux_dependencies=freetype fontconfig dbus libxcb libX11 xproto libXext
 $(package)_build_subdir=qtbase
